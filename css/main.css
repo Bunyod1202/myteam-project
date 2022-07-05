@@ -114,7 +114,7 @@ color: var(--text-colar-white);
 .header-inner__list-link:hover {
 color: var(--bg-color-light-coral);
 }
-.header-inner__list-link:last-child {
+.header-inner__list-item:last-child {
   margin-left: 40px;
 }
 .header-inner__btn {
