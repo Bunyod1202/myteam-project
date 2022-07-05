@@ -293,6 +293,53 @@ strong
   text-align: center;
   color: var(--text-colar-white);
 
+
+/* Start Samandar stories section */
+a,
+strong
+{
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.site-stories-section{
+  position: relative;
+  padding: 140px 0 245px 0;
+  background-color: var(--bg-colar-deep-jungle-greem);
+  background-image: url("../images/delivering-bottom.svg");
+  background-size: 200 200;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 860px) calc(50% + 400px);
+}
+.site-stories-section::before{
+  content: "";
+  position: absolute; 
+  left: calc(50% - 960px);
+  top: 0;
+  background-image: url("../images/delivering-top.svg");
+  width: 147px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stories-box__bottom-img{
+  position: absolute;
+  right: 0%;
+  bottom: -10%;
+}
+
+
+.stories-title{
+  margin: 0;
+  margin-bottom: 92px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--text-colar-white);
+
 }
 .stories-title__item{
   color: var(--text-colar-rapture-blue);
