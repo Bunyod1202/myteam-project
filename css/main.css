@@ -91,3 +91,217 @@ body{
 }
 
 
+/* Start Samandar stories section */
+a,
+strong
+{
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.site-stories-section{
+  position: relative;
+  padding: 140px 0 245px 0;
+  background-color: var(--bg-colar-deep-jungle-greem);
+  background-image: url("../images/delivering-bottom.svg");
+  background-size: 200 200;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 860px) calc(50% + 400px);
+}
+.site-stories-section::before{
+  content: "";
+  position: absolute; 
+  left: calc(50% - 960px);
+  top: 0;
+  background-image: url("../images/delivering-top.svg");
+  width: 147px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stories-box__bottom-img{
+  position: absolute;
+  right: 0%;
+  bottom: -10%;
+}
+
+.stories-title{
+  margin: 0;
+  margin-bottom: 92px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--text-colar-white);
+
+}
+.stories-title__item{
+  color: var(--text-colar-rapture-blue);
+}
+.stories-box__list{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.stories-list__item{
+  position: relative;
+  width: 350px;
+  padding-top: 36px;
+  list-style: none;
+}
+.stories-list__item{
+  background-image: url("../images/deliver-quatre.svg");
+  background-repeat: no-repeat;
+  background-size: 67px 56px ;
+  background-position: calc(50% + 0px) calc(50% - 75px);
+}
+.stories-list__item::after{
+  content: "";
+  position: absolute;
+  right: 42%;
+  bottom: -42%;
+  background-image: url("../images/kady-baker-img.svg");
+  width: 62px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stories-list__item:nth-child(2)::after{
+  background-image: url("../images/aiysha-reese-img.svg");
+}
+.stories-list__item:nth-child(3)::after{
+  background-image: url("../images/arthur-clarke.svg");
+}
+.stories-list__item:not(:last-child){
+  margin-right: 30px;
+}
+.stories-list__text{
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: var(--text-font-size-15);
+  line-height: var(--text-line-height-25);
+  text-align: center;
+  color: var(--text-colar-white);
+}
+.stories-list__person-name{
+  margin: 0;  
+  margin-bottom: 2px;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+.stories-list__person-job{
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--text-colar-white);
+}
+/* End stroies section */
+
+.redy-section{
+  padding: 76px;
+  background-color: var(--bg-color-light-coral);
+  background-image: url("../images/ready-to-started-bg.svg");
+  background-size: 200px 244px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 855px) calc(50% + 78px);
+}
+.redy-box{
+  margin: 0 auto;
+  width: 917px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redy-box__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--bg-colar-sacramento-state-greem);
+}
+.redy-link{
+  padding: 10px 33px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--bg-colar-sacramento-state-greem);
+  border: 2px solid #012F34;
+  border-radius: 24px;
+}
+.redy-link:hover{
+  color: var(--text-colar-white);
+  background-color: #012F34;
+}
+.site-footer{
+  padding: 48px 0;
+  background-color: var(--bg-colar-dark-green);
+
+}
+
+.footer-box{
+  display: flex;
+  align-items: center;
+}
+.footer-box__link{
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: var(--text-font-size-18);
+  line-height: var(--text-line-height-28);
+  color: var(--text-colar-white);
+}
+.footer-box__link:hover{  
+  color: var(--bg-color-light-coral);
+}
+.footer-box__link:not(:last-child){
+  margin-right: 40px;
+}
+.footer-box__text-box{
+  margin-left: 125px;
+}
+.footer-box__text{
+  margin: 0;
+  margin-left: 125px;
+  font-weight: 600;
+  font-size: var(--text-font-size-15);
+  line-height: var(--text-line-height-25);
+  color: var(--text-colar-white);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.footer-box__end{
+  margin-left: auto;
+}
+.footer-box__icon-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.footer-box__icon{
+  margin-bottom: 45px;
+  color: var(--text-colar-white);
+}
+.footer-box__icon:not(:last-child){
+  margin-right: 16px;
+}
+.footer-box__icon:hover{
+  color: var(--bg-color-light-coral);
+}
+.footer-box__end-text{
+  margin: 0;
+  font-weight: 600;
+  font-size: var(--text-font-size-15);
+  line-height: var(--text-line-height-25);
+  text-align: right;
+  color: var(--text-colar-white);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
