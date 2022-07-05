@@ -1,13 +1,45 @@
-/* VARIABLES */
 
 :root{
-  /* --main-text-color : #fff; */
-  /* --main-bg-color : #fff; */
-  /* --main-font-size : 16px; */
-  /* --main-font-weight : 400; */
-  /* --main-line-height : 1.5; */
+  --bg-colar-midniht-green: #014E56;
+  --bg-colar-dark-green: #002529;
+  --bg-colar-police-blue: #2C6269;
+  --bg-colar-deep-jungle-greem:#004047;
+  --bg-colar-sacramento-state-greem:#012F34;
+  --bg-color-light-coral: #F67E7E;
+  --text-colar-white: #fff;
+  --text-colar-rapture-blue: #79C8C7;
+
+
+  --text-font-size-18: 18px;
+  --text-font-size-15: 15px;
+
+  --text-line-height-28: 28px;
+  --text-line-height-25: 25px;
 }
 
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"),
+       url("../fonts/livvic-v13-latin-regular.woff") format("woff"); 
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), 
+       url("../fonts/livvic-v13-latin-600.woff") format("woff");
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src:url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), 
+       url("../fonts/livvic-v13-latin-700.woff") format("woff");
+}
 /* GENERAL */
 *{
   box-sizing: border-box;
@@ -27,10 +59,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
+  font-family: "Livvic", "Arial", sans-serif;
+  background-color: var(--bg-colar-midniht-green);
 }
 
 
@@ -50,11 +80,9 @@ body{
 /* CONTAINER */
 
 .container{
-  /* max-width: your-size-here; */
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* STICKY-FOOTER */
