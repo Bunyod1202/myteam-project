@@ -648,9 +648,7 @@ strong
   margin-right: 20px;
 }
 
-.directors-list__iiner:hover .directors-list__item{
-  transform: rotateY(180deg);
-}
+
 .directors-list__iiner:hover  .directors-list__link{
   transform: rotate(0);  
 }
@@ -680,4 +678,6 @@ strong
   padding: 0;
   margin: 0;
 }
-
+.directors-list__item--active .directors-list__item {
+  transform: rotateY(180deg);
+}
