@@ -136,6 +136,11 @@ background-image: url("../images/hero-left.svg"),url("../images/hero-bottom.svg"
 background-repeat: no-repeat;
 background-position: calc(50% - 759px) calc(100% - 258px),calc(50% + 375px) calc(100% - -105px);
 }
+.about-hero {
+  background-image: url("../images/hero-about.svg");
+background-repeat: no-repeat;
+background-position: calc(50% + 762px) calc(100% - 0px);
+}
 .banner {
   padding: 52px 0 250px;
   display: flex;
@@ -145,6 +150,9 @@ background-position: calc(50% - 759px) calc(100% - 258px),calc(50% + 375px) calc
 .banner__left {
   width: 635px;
 }
+.banner__left--about {
+  width: 350px;
+}
 .banner__title {
   margin: 0;
   font-weight: 700;
@@ -152,11 +160,17 @@ background-position: calc(50% - 759px) calc(100% - 258px),calc(50% + 375px) calc
   line-height: 100px;
   color: var(--text-colar-white);
 }
+.banner__title--about {
+font-size: 64px;
+}
 .banner__title span {
 color: var(--bg-color-light-coral);
 }
 .banner__right {
   width: 445px;
+}
+.banner__right--about {
+  width: 730px;
 }
 .banner__text {
   position: relative;
@@ -166,6 +180,9 @@ color: var(--bg-color-light-coral);
   line-height: 28px;
   color: var(--text-colar-white);
 }
+.banner__text--about {
+  margin-top: 44px;
+}
 .banner__text::before {
 content: "";
 position: absolute;
@@ -174,6 +191,9 @@ left: 0;
 width: 50px;
 height: 4px;
 background-color: var(--text-colar-rapture-blue);
+}
+.banner__text--about::before {
+background-color: var(--bg-color-light-coral);
 }
 .build {background-image: url("../images/build.svg");
   background-repeat: no-repeat;
