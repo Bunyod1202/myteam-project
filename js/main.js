@@ -1,23 +1,16 @@
 var elDirLink=document.querySelectorAll(".directors-list__link");
-var elDirItem=document.querySelectorAll(".directors-list__item")
+var elDirItem=document.querySelectorAll(".directors-list__iiner")
 
 console.log(elDirLink);
 console.log(elDirItem);
 
-elDirLink.forEach(function(links){
+    
+links.addEventListener("click",function(evt){
 
-    console.log(links);
+    elDirItem.forEach(function(items){
+        items.classList.remove("directors-list__item--active")
+    })
 
-    links.addEventListener("click",function(evt){
-
-        evt.preventDefault()
-
-        elDirItem.forEach(function(items){
-            items.classList.remove("directors-list__item-active")
-            console.log(items);
-        })
-        
-        
-        
-    });
+    links.parentElement.classList.add("directors-list__item--active")
 })
+  
