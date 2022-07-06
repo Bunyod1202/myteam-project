@@ -496,11 +496,38 @@ strong
 
 
 /* Start Samanda Second page */ 
+
+
 .about-directors{
+  position: relative;
   padding: 140px 0 168px;
+  background-color: var(--bg-colar-deep-jungle-greem);
+  background-image: url("../images/delivering-top.svg");
+  background-size: 147px 100px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 900px) calc(50% + 460px);
 }
+.about-directors::before{
+  position: absolute;
+  top: 0%;
+  left: -6%;
+  background-image: url("../images/delivering-bottom.svg");
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+} 
 
-
+.about-directors-box__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--text-colar-white);
+  margin-bottom: 64px;
+}
 
 
 
