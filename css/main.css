@@ -209,7 +209,7 @@ background-color: var(--bg-color-light-coral);
 .build-inner__left {
   width: 445px;
 }
-.build-inner_title {
+.build-inner__title {
   position: relative;
   margin: 0;
   font-weight: 700;
@@ -217,7 +217,7 @@ background-color: var(--bg-color-light-coral);
   line-height: 48px;
   color: var(--text-colar-white);
 }
-.build-inner_title::before {
+.build-inner__title::before {
   content: "";
   position: absolute;
   top: -68px ;
@@ -490,4 +490,27 @@ strong
   color: var(--text-colar-white);
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+.about-some {
+  padding: 140px;
+  background-image: url("../images/clients-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 665px) calc(50% - 121px);
+  background-color: var(--bg-colar-sacramento-state-greem);
+}
+.some-inner__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--text-colar-white);
+  margin: 0 0 64px 0;
+}
+.some-inner__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
