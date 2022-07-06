@@ -505,12 +505,12 @@ strong
   background-image: url("../images/delivering-top.svg");
   background-size: 147px 100px;
   background-repeat: no-repeat;
-  background-position: calc(50% + 900px) calc(50% + 460px);
+  background-position: calc(50% + 684px) calc(50% + 459px);
 }
 .about-directors::before{
   position: absolute;
   top: 0%;
-  left: -6%;
+  left: -7%;
   background-image: url("../images/delivering-bottom.svg");
   width: 200px;
   height: 200px;
