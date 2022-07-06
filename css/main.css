@@ -471,3 +471,126 @@ strong
   mix-blend-mode: normal;
   opacity: 0.6;
 }
+
+
+
+/* Start Samanda Second page */ 
+.about-directors{
+  padding: 140px 0 168px;
+}
+
+
+
+
+
+.directors-list{
+  display: flex;
+  position: relative;
+}
+
+.directors-list__item{
+  position: relative;
+  width: 350px;
+  height: 253px;
+  transform-style: preserve-3d;
+  transition: 0.5s ease;
+}
+
+.directors-list__front{
+  padding: 32px 0;
+  position: absolute;
+  width: 350px;
+  height: 253px;
+  backface-visibility: hidden;
+  background-color: #012F34;
+}
+.directors-list__img{
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.directors-list__person-name{
+  margin: 0;
+  font-weight: 700;
+  font-size: var(--text-font-size-18);
+  line-height: var(--text-line-height-28);
+  text-align: center;
+  color: var(--text-colar-rapture-blue);
+}
+.directors-list__person-job{
+  margin: 0;
+  font-size: var(--text-font-size-15);
+  line-height: var(--text-line-height-25);
+  text-align: center;
+  color: var(--text-colar-white);
+}
+.directors-list__back{
+  padding: 35px 28px 52px 28px;
+  position: absolute;
+  width: 350px;
+  height: 253px;
+  backface-visibility: hidden;
+  background-color: #002529;
+  transform: rotateY(180deg);
+}
+
+.directors-black__title{
+  font-weight: 700;
+  font-size: var(--text-font-size-18);
+  line-height: var(--text-line-height-28);
+  text-align: center;
+  color: var(--text-colar-rapture-blue);
+}
+.directors-black__text{
+  font-weight: 600;
+  font-size: var(--text-font-size-15);
+  line-height: var(--text-line-height-25);
+  text-align: center;
+  color: var(--text-colar-white);
+}
+.directors-black__links-box{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.directors-black__links:not(:last-child){
+  margin-right: 16px;
+}
+.directors-black__links{
+  color: #fff;
+
+}
+.directors-black__links:hover{
+  color: var(--bg-color-light-coral);
+}
+.directors-list__link{
+  position: absolute;
+  left: 40%;
+  bottom: -12%;
+}
+.directors-list__link{
+  transition: all  0.5s ease;
+  transform: rotate(45deg);
+}
+.directors-list__link svg circle {
+  fill: #F67E7E;
+}
+.directors-list__iiner{
+  position: relative;
+  list-style: none;
+  display: inline-block;
+
+}
+.directors-list__item--active{
+  transform: rotateY(180deg);
+
+}
+
+/* .directors-list__iiner:hover .directors-list__item{
+  transform: rotateY(180deg);
+}
+.directors-list__iiner:hover  .directors-list__link{
+  transform: rotate(0);  
+}
+.directors-list__iiner:hover  .directors-list__link svg circle{
+  fill: #79C8C7;
+} */
